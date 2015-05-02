@@ -1,23 +1,13 @@
-![](https://dl.dropboxusercontent.com/u/1803181/essential-react-logo.png)
-
-[![Travis branch](https://img.shields.io/travis/pheuter/essential-react.svg?style=flat-square)](https://travis-ci.org/pheuter/essential-react)
-[![Coveralls](https://img.shields.io/coveralls/pheuter/essential-react.svg?style=flat-square)](https://coveralls.io/r/pheuter/essential-react)
-[![npm](https://img.shields.io/npm/v/essential-react.svg?style=flat-square)](https://www.npmjs.com/package/essential-react)
-[![David](https://img.shields.io/david/pheuter/essential-react.svg?style=flat-square)](https://david-dm.org/pheuter/essential-react)
-
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/essential_react.svg)](https://saucelabs.com/u/essential_react)
-
----
+Interviews
+============
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 A minimal skeleton for building testable React apps using ES6.
 
-- [Design Goals](#design-goals)
 - [Getting Started](#getting-started)
 - [Dependencies](#dependencies)
   - [Dev](#dev)
-- [Project structure](#project-structure)
 - [Commands](#commands)
   - [server](#server)
   - [build](#build)
@@ -25,15 +15,8 @@ A minimal skeleton for building testable React apps using ES6.
   - [test-cross-browser](#test-cross-browser)
   - [coveralls](#coveralls)
   - [clean](#clean)
-- [Changelog](#changelog)
-
-## Design Goals
-
-- As few tools as possible (no yeoman, gulp, bower, etc...)
-- ES6 with polyfills for current browsers
-- Testability: ease of writing unit tests and generating code coverage
-- Minimize templates, compose DOM alongside components via JSX
-- Session-driven routing using [react-router](https://github.com/rackt/react-router) with async data fetching
+- [About](#about)
+- [License](#license)
 
 ## Getting Started
 
@@ -62,10 +45,6 @@ Navigate to **http://localhost:8080/** to view the app.
 - [babel](http://babeljs.io/)
 
 Check out [package.json](package.json) for the complete list.
-
-## Project structure
-
-![](https://www.dropbox.com/s/j936nd4j57u45cb/Screenshot%202015-03-08%2016.56.05.png?dl=1)
 
 Components are grouped into 2 main categories:
 
@@ -146,4 +125,32 @@ $ npm run clean
 
 Removes the compiled app file from build.
 
-## [Changelog](CHANGELOG.md)
+### About
+
+This project is maintained by [Esteban Guido Pintos](https://github.com/epintos) and [Sebastián Balay](https://github.com/sbalay) and it was written by [Wolox](http://www.wolox.com.ar).
+
+![Wolox](https://raw.githubusercontent.com/Wolox/press-kit/master/logos/logo_banner.png)
+
+### License
+
+**interviews** is available under the MIT [license](https://raw.githubusercontent.com/Wolox/WLXBluetoothDevice/master/LICENSE).
+
+    Copyright (c) 2014 Guido Marucci Blas <guidomb@wolox.com.ar>
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.
