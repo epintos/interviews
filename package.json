@@ -1,7 +1,7 @@
 {
-  "name": "essential-react",
+  "name": "interviews",
   "version": "0.2.3",
-  "description": "A minimal skeleton for building testable React apps using ES6.",
+  "description": "App for Interview process.",
   "main": "src/main.jsx",
   "scripts": {
     "postinstall": "npm run build",
@@ -14,20 +14,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pheuter/essential-react.git"
+    "url": "https://github.com/epintos/interviews.git"
   },
   "keywords": [
-    "skeleton",
-    "template",
     "react",
-    "quickstart"
+    "interviews",
+    "process"
   ],
-  "author": "Mark Fayngersh",
+  "author": "Esteban Guido Pintos, Sebastián Balay",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pheuter/essential-react/issues"
+    "url": "https://github.com/epintos/interviews/issues"
   },
-  "homepage": "https://github.com/pheuter/essential-react",
+  "homepage": "https://github.com/epintos/interviews",
   "devDependencies": {
     "coveralls": "^2.11.2",
     "istanbul": "^0.3.7",
