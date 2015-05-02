@@ -1,6 +1,8 @@
 Interviews
 ============
 
+[![Join the chat at https://gitter.im/epintos/interviews](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/epintos/interviews?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 A minimal skeleton for building testable React apps using ES6.
