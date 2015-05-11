@@ -15,5 +15,5 @@ export default class Interviewee extends React.Component {
 }
 
 Interviewee.fetchData = function(params) {
-  return getData("/home");
+  return getData("/interviewees");
 }

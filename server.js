@@ -34,9 +34,9 @@ app.post('/landing', function(req, res) {
   });
 });
 
-app.post('/home', function(req, res) {
+app.post('/interviewees', function(req, res) {
   res.json({
-    title: "Home Page"
+    title: "Interviewees Page"
   });
 });
 

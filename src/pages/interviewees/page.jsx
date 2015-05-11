@@ -2,13 +2,13 @@ import React from "react";
 import { getData } from "../../common/request";
 import IntervieweesBox from "./interviewees_box";
 
-export default class HomePage extends React.Component {
+export default class IntervieweesPage extends React.Component {
   componentWillMount() {
-    console.log("[HomePage] will mount with server response: ", this.props.data.home);
+    console.log("[IntervieweesPage] will mount with server response: ", this.props.data.interviewees);
   }
 
   render() {
-    let { title } = this.props.data.home;
+    let { title } = this.props.data.interviewees;
 
     return (
       <div className="container-fluid">
@@ -22,6 +22,6 @@ export default class HomePage extends React.Component {
   }
 }
 
-HomePage.fetchData = function(params) {
-  return getData("/home");
+IntervieweesPage.fetchData = function(params) {
+  return getData("/interviewees");
 }

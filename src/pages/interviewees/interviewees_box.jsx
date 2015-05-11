@@ -19,7 +19,7 @@ export default class IntervieweesBox extends React.Component {
 }
 
 IntervieweesBox.fetchData = function(params) {
-  return getData("/home");
+  return getData("/interviewees");
 }
 
 var INTERVIEWEES = [

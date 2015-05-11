@@ -20,5 +20,5 @@ export default class IntervieweesForm extends React.Component {
 }
 
 IntervieweesForm.fetchData = function(params) {
-  return getData("/home");
+  return getData("/interviewees");
 }

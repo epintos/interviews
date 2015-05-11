@@ -2,7 +2,7 @@ import React from "react";
 import Router from "react-router";
 let { Route, DefaultRoute, RouteHandler, Link } = Router;
 
-import HomePage from "../pages/home/page";
+import IntervieweesPage from "../pages/interviewees/page";
 
 
 export default class LoggedInRouter extends React.Component {
@@ -17,8 +17,8 @@ export default class LoggedInRouter extends React.Component {
 
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav">
-                <li><Link to="home">Interviewees</Link></li>
-                <li><Link to="home">Exercises</Link></li>
+                <li><Link to="interviewees">Interviewees</Link></li>
+                <li><Link to="interviewees">Exercises</Link></li>
               </ul>
               <form className="navbar-form navbar-right">
                 <div className="form-group">
@@ -44,7 +44,7 @@ export default class LoggedInRouter extends React.Component {
 LoggedInRouter.getRoutes = function() {
   return (
     <Route name="app" path="/" handler={LoggedInRouter}>
-      <DefaultRoute name="home" handler={HomePage} />
+      <DefaultRoute name="interviewees" handler={IntervieweesPage} />
     </Route>
   );
 }
